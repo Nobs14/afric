@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Afric Luxury Interiors & Construction - Building Dreams, Designing Luxury. Premier services in construction, interior design, renovations, and project management.">
+    <meta name="keywords" content="Afric Luxury, Construction, Interior Design, Renovations, Project Management, Luxury Interiors, Residential Construction, Commercial Construction, Design Consultancy">
+    <title>Afric Luxury Interiors & Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Pre-loader -->
+    <div id="preloader">
+        <div class="loader"></div>
+        <p>Afric Luxury Loading...</p>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo%201.jpg" alt="Afric Luxury Logo -
+                 Afric Luxury Interiors & Construction" class="logo-img" onerror="this.onerror=null; this.src='./assets/logo.jpg'">
+                <span class="logo-text"></span>
+                <div class="logo-motto">Crafting Elegance, Building Dreams.</div>
+            </div>
+            <button class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="index.html"><i class="fas fa-home nav-icon" aria-hidden="true"></i><span class="nav-text">Home</span></a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle nav-icon" aria-hidden="true"></i><span class="nav-text">About Us</span></a></li>
+                <li><a href="services.html"><i class="fas fa-tools nav-icon" aria-hidden="true"></i><span class="nav-text">Services</span></a></li>
+                <li><a href="portfolio.html"><i class="fas fa-th-large nav-icon" aria-hidden="true"></i><span class="nav-text">Portfolio</span></a></li>
+                <li><a href="why-choose-us.html"><i class="fas fa-star nav-icon" aria-hidden="true"></i><span class="nav-text">Why Choose Us</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope nav-icon" aria-hidden="true"></i><span class="nav-text">Contact</span></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div id="hero-image-background" style="background-image: url('./assets/r7.jpg');"></div>
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>Crafting Legacies, Designing Masterpieces</h1>
+                    <p></p>
+                    <a href="contact.html" class="btn">Envision Your Project / Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="introduction" class="container">
+            <h2>Unveiling Afric Luxury: Your Vision, Our Expertise</h2>
+            <p class="section-subtitle">Where imagination takes form in breathtaking spaces of elegance and enduring quality.</p>
+            <div class="intro-content">
+                <p>Afric Luxury Interiors & Construction is a premier firm dedicated to transforming ambitious visions into tangible realities. With a harmonious blend of innovative design and meticulous construction, we specialize in creating bespoke environments across residential, commercial, and luxury interior sectors. Our commitment to excellence, sustainable practices, and client satisfaction has established us as a leader in delivering projects that are not only aesthetically captivating but also supremely functional and built to last.</p>
+                <p>From the initial conceptualization to the final touches, our integrated approach ensures a seamless and transparent process. We pride ourselves on a collaborative spirit, working closely with each client to understand their unique aspirations and translating them into spaces that inspire. Discover the difference that passion, precision, and a relentless pursuit of perfection can make to your next project.</p>
+                <a href="about.html" class="btn" style="margin-top: 20px;">Journey Through Our Story</a>
+            </div>
+        </section>
+
+        <section id="services-overview" class="container parallax-bg" data-bg-image="./assets/r1.jpg">
+            <h2>The Art of Our Craft: Signature Services</h2>
+            <p class="section-subtitle">A glimpse into how we meticulously bring your architectural and design dreams to life.</p>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-hard-hat service-icon"></i>
+                    <h3>Architectural Construction & Development</h3>
+                    <p>Building strong foundations and breathtaking structures with precision and integrity.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-couch service-icon"></i>
+                    <h3>Exquisite Interior Styling & Design</h3>
+                    <p>Designing sophisticated and functional interiors that reflect your unique style.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-project-diagram service-icon"></i>
+                    <h3>Strategic Project Management Mastery</h3>
+                    <p>Ensuring seamless execution, on-time delivery, and budget adherence for every project.</p>
+                </div>
+            </div>
+            <a href="services.html" class="btn" style="margin-top: 40px;">Discover Our Full Spectrum of Services</a>
+        </section>
+
+        <section id="featured-projects" class="container">
+            <h2>Showcase of Brilliance: Our Featured Creations</h2>
+            <p class="section-subtitle">Immerse yourself in a curated selection of our most iconic and inspiring achievements.</p>
+            <div class="portfolio-grid">
+                <!-- Dynamically loaded by script.js, showing a selection -->
+            <div class="portfolio-item" data-category="residential">
+                <img src="./assets/1.jpg" alt="Residential Project 1">
+            </div>
+            <div class="portfolio-item" data-category="commercial">
+                <img src="./assets/2.jpg" alt="Commercial Project 1">
+            </div>
+            <div class="portfolio-item" data-category="luxury-interiors">
+                <img src="./assets/3.jpg" alt="Luxury Interior Project 1">
+            </div>
+            <div class="portfolio-item" data-category="residential">
+                <img src="./assets/4.jpg" alt="Residential Project 2">
+            </div>
+            <div class="portfolio-item" data-category="commercial">
+                <img src="./assets/5.jpg" alt="Commercial Project 2">
+            </div>
+            <div class="portfolio-item" data-category="luxury-interiors">
+                <img src="./assets/6.jpg" alt="Luxury Interior Project 2">
+            </div>
+            <div class="portfolio-item" data-category="residential">
+                <img src="./assets/7.jpg" alt="Residential Project 3">
+            </div>
+            <div class="portfolio-item" data-category="commercial">
+                <img src="./assets/8.jpg" alt="Commercial Project 3">
+            </div>
+            <div class="portfolio-item" data-category="luxury-interiors">
+                <img src="./assets/9.jpg" alt="Luxury Interior Project 3">
+            </div>
+            <div class="portfolio-item" data-category="residential">
+                <img src="./assets/10.jpg" alt="Residential Project 4">
+            </div>
+            <div class="portfolio-item" data-category="commercial">
+                <img src="./assets/11.jpg" alt="Commercial Project 4">
+            </div>
+            <div class="portfolio-item" data-category="luxury-interiors">
+                <img src="./assets/12.jpg" alt="Luxury Interior Project 4">
+            </div>
+            <div class="portfolio-item" data-category="residential">
+                <img src="./assets/13.jpg" alt="Residential Project 5">
+            </div>
+            </div>
+            <a href="portfolio.html" class="btn" style="margin-top: 40px;">Explore Our Entire Portfolio</a>
+        </section>
+
+        <!-- New Image Slideshow Section -->
+        <section id="image-slideshow" class="container">
+            <h2>Our Latest Visions: A Curated Collection</h2>
+            <p class="section-subtitle">Explore our fresh designs and recent projects through a captivating visual journey.</p>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./assets/w1.jpg" style="width:100%" alt="Latest Project 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w2.jpg" style="width:100%" alt="Latest Project 2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w3.jpg" style="width:100%" alt="Latest Project 3">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w4.jpg" style="width:100%" alt="Latest Project 4">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w5.jpg" style="width:100%" alt="Latest Project 5">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w6.jpg" style="width:100%" alt="Latest Project 6">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w7.jpg" style="width:100%" alt="Latest Project 7">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w8.jpg" style="width:100%" alt="Latest Project 8">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w9.jpg" style="width:100%" alt="Latest Project 9">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w10.jpg" style="width:100%" alt="Latest Project 10">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./assets/w11.jpg" style="width:100%" alt="Latest Project 11">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span>
+                <span class="dot" onclick="currentSlide(10)"></span>
+                <span class="dot" onclick="currentSlide(11)"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-main">
+            <div class="footer-col company-info">
+                <img src="./assets/logo%201.jpg" alt="Afric Luxury Logo" class="footer-logo">
+                <p class="tagline">Crafting Elegance, Building Dreams.</p>
+                <p class="about-blurb">Afric Luxury Interiors & Construction specializes in creating bespoke luxury spaces and delivering high-end construction projects across Kenya and beyond.</p>
+                <p>&copy; 2025 Afric Luxury Interiors & Construction. All rights reserved.</p>
+            </div>
+            <div class="footer-col quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Ruiru, Kenya</p>
+                <p><i class="fas fa-phone-alt"></i> +254790274288, +254725780382</p>
+                <p><i class="fas fa-envelope"></i> info@africluxuryinteriors.co.ke</p>
+                <div class="footer-social-links">
+                    <a href="https://www.facebook.com/africluxuryinteriors" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/africluxuryinteriors" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/africluxuryinteriors" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/africluxuryinteriors" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/254790274288" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <button id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Floating Quick Contact Button -->
+    <a href="contact.html" class="quick-contact-btn" aria-label="Quick Contact">
+        <i class="fas fa-comments"></i>
+        <span class="btn-text">Contact Us</span>
+    </a>
+    <a href="https://wa.me/254790274288" class="whatsapp-float" target="_blank" aria-label="WhatsApp Chat">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>

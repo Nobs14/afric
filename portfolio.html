@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our Portfolio - Showcase of residential, commercial, and luxury interior projects by Afric Luxury Interiors & Construction.">
+    <meta name="keywords" content="Afric Luxury, Portfolio, Residential Projects, Commercial Projects, Luxury Interiors, Completed Projects, Before/After, Gallery">
+    <title>Portfolio - Afric Luxury Interiors & Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Pre-loader -->
+    <div id="preloader">
+        <div class="loader"></div>
+        <p>Afric Luxury Loading...</p>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo%201.jpg" alt="Afric Luxury Logo -
+                 Afric Luxury Interiors & Construction" class="logo-img" onerror="this.onerror=null; this.src='./assets/logo.jpg'">
+                <div class="logo-motto">Crafting Elegance, Building Dreams.</div>
+            </div>
+            <button class="hamburger-menu" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="index.html"><i class="fas fa-home nav-icon" aria-hidden="true"></i><span class="nav-text">Home</span></a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle nav-icon" aria-hidden="true"></i><span class="nav-text">About Us</span></a></li>
+                <li><a href="services.html"><i class="fas fa-tools nav-icon" aria-hidden="true"></i><span class="nav-text">Services</span></a></li>
+                <li><a href="portfolio.html"><i class="fas fa-th-large nav-icon" aria-hidden="true"></i><span class="nav-text">Portfolio</span></a></li>
+                <li><a href="why-choose-us.html"><i class="fas fa-star nav-icon" aria-hidden="true"></i><span class="nav-text">Why Choose Us</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope nav-icon" aria-hidden="true"></i><span class="nav-text">Contact</span></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-content-wrapper">
+            <section id="portfolio-hero" class="parallax-bg" data-bg-image="./assets/9.jpg">
+                <div class="hero-overlay" style="background-color: rgba(0,0,0,0.45); padding: 120px 0 80px;">
+                    <div class="container content-above-overlay">
+                        <h2 style="color: var(--accent-gold)">Crafted Spaces. Proven Impact.</h2>
+                        <p class="section-subtitle" style="color: var(--text-light); max-width: 900px; margin: 8px auto 0;"></p>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="container">
+                <h2>A Gallery of Grandeur: Our Distinguished Portfolio</h2>
+                <p class="section-subtitle">Explore our curated projects. Concise cards. Tap images to enlarge.</p>
+                <div class="portfolio-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="residential">Residential</button>
+                    <button class="category-btn" data-category="commercial">Commercial</button>
+                    <button class="category-btn" data-category="luxury-interiors">Luxury Interiors</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="residential">
+                        <img src="./assets/r1.jpg" alt="Luxury Bathroom Interior" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Serene Bathroom Interior</h3>
+                        <p class="portfolio-description">A tranquil, modern spa-inspired bathroom with elegant finishes.</p>
+                        <div class="project-tags"><span class="tag">Residential</span><span class="tag">Spa Theme</span><span class="tag">Marble</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="./assets/r2.jpg" alt="Elegant Living Room Interior" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Elegant Living Room</h3>
+                        <p class="portfolio-description">A sophisticated lounge blending comfort with contemporary design.</p>
+                        <div class="project-tags"><span class="tag">Commercial</span><span class="tag">Lounge</span><span class="tag">Acoustic</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="luxury-interiors">
+                        <img src="./assets/r3.jpg" alt="Modern Kitchen Interior" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Modern Kitchen Interior</h3>
+                        <p class="portfolio-description">Sleek lines, smart storage, and premium appliances for daily artistry.</p>
+                        <div class="project-tags"><span class="tag">Luxury</span><span class="tag">Kitchen</span><span class="tag">Quartz</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="residential">
+                        <img src="./assets/r4.jpg" alt="Elegant Modern Kitchen" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Elegant Modern Kitchen</h3>
+                        <p class="portfolio-description">Warm wood tones and open-plan flow for effortless everyday living.</p>
+                        <div class="project-tags"><span class="tag">Residential</span><span class="tag">Open Plan</span><span class="tag">Warm Wood</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="./assets/r5.jpg" alt="Creative Wall Design" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Creative Wall Design</h3>
+                        <p class="portfolio-description">Textural feature wall that anchors and elevates the space.</p>
+                        <div class="project-tags"><span class="tag">Commercial</span><span class="tag">Feature Wall</span><span class="tag">Texture</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="luxury-interiors">
+                        <img src="./assets/r6.jpg" alt="Elegant Interior Design" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Elegant Interior Design</h3>
+                        <p class="portfolio-description">Layered lighting and luxe finishes for a timeless living experience.</p>
+                        <div class="project-tags"><span class="tag">Luxury</span><span class="tag">Living</span><span class="tag">Gold Accents</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="residential">
+                        <img src="./assets/7.jpg" alt="Residential Exterior" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Contemporary Facade</h3>
+                        <p class="portfolio-description">Balanced geometry and welcoming lighting for strong curb appeal.</p>
+                        <div class="project-tags"><span class="tag">Residential</span><span class="tag">Facade</span><span class="tag">Lighting</span></div>
+                    </div>
+                    <div class="portfolio-item" data-category="commercial">
+                        <img src="./assets/8.jpg" alt="Commercial Lobby" onerror="this.onerror=null; this.src='./assets/logo.jpg';">
+                        <h3>Signature Lobby</h3>
+                        <p class="portfolio-description">Premium stone and clean lines create an impressive arrival moment.</p>
+                        <div class="project-tags"><span class="tag">Commercial</span><span class="tag">Lobby</span><span class="tag">Stone</span></div>
+                    </div>
+                </div>
+                <div class="call-to-action" style="margin-top: 60px;">
+                    <p>Inspired by our artistry? Let's collaborate to create your next extraordinary space.</p>
+                    <a href="contact.html" class="btn">Initiate Your Bespoke Project</a>
+                </div>
+            </section>
+
+            <!-- Latest Works Gallery (interactive) -->
+            <section id="latest-works" class="container">
+                <h2>Latest Works: A Curated Showcase</h2>
+                <p class="section-subtitle">Explore select highlights from our recent projects. Tap any image to view full-screen.</p>
+                <div class="gallery-grid">
+                    <figure class="gallery-item" data-index="0" data-caption="Residence Lounge – Warm modern palette">
+                        <img src="./assets/w1.jpg" alt="Latest Work 1">
+                    </figure>
+                    <figure class="gallery-item" data-index="1" data-caption="Kitchen Detail – Quartz & brass accents">
+                        <img src="./assets/w2.jpg" alt="Latest Work 2">
+                    </figure>
+                    <figure class="gallery-item" data-index="2" data-caption="Commercial Lobby – Statement stone">
+                        <img src="./assets/w3.jpg" alt="Latest Work 3">
+                    </figure>
+                    <figure class="gallery-item" data-index="3" data-caption="Bedroom Suite – Serene tones">
+                        <img src="./assets/w4.jpg" alt="Latest Work 4">
+                    </figure>
+                    <figure class="gallery-item" data-index="4" data-caption="Dining – Layered lighting">
+                        <img src="./assets/w5.jpg" alt="Latest Work 5">
+                    </figure>
+                    <figure class="gallery-item" data-index="5" data-caption="Outdoor Living – Entertainer’s deck">
+                        <img src="./assets/w6.jpg" alt="Latest Work 6">
+                    </figure>
+                    <figure class="gallery-item" data-index="6" data-caption="Entry Hall – Sculptural moments">
+                        <img src="./assets/w7.jpg" alt="Latest Work 7">
+                    </figure>
+                    <figure class="gallery-item" data-index="7" data-caption="Bath – Spa-inspired calm">
+                        <img src="./assets/w8.jpg" alt="Latest Work 8">
+                    </figure>
+                    <figure class="gallery-item" data-index="8" data-caption="Workplace – Collaborative zones">
+                        <img src="./assets/w9.jpg" alt="Latest Work 9">
+                    </figure>
+                    <figure class="gallery-item" data-index="9" data-caption="Stairway – Crafted details">
+                        <img src="./assets/w10.jpg" alt="Latest Work 10">
+                    </figure>
+                    <figure class="gallery-item" data-index="10" data-caption="Penthouse – Luxe textures">
+                        <img src="./assets/w11.jpg" alt="Latest Work 11">
+                    </figure>
+                    <figure class="gallery-item" data-index="11" data-caption="Atrium – Natural light & greenery">
+                        <img src="./assets/w12.jpg" alt="Latest Work 12">
+                    </figure>
+                </div>
+            </section>
+
+            <section id="case-study" class="container">
+                <h2>Case Study Spotlight: The Grand Salon</h2>
+                <p class="section-subtitle">From concept to completion—an elegant transformation delivered on time and on budget.</p>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <i class="fas fa-lightbulb service-icon"></i>
+                        <h3>Design Vision</h3>
+                        <p>We curated a timeless palette with subtle gold accents, integrating bespoke millwork and layered lighting to heighten ambiance.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-project-diagram service-icon"></i>
+                        <h3>Delivery & Program</h3>
+                        <p>Completed within 10 weeks, coordinated across trades with transparent progress tracking and quality benchmarks.</p>
+                    </div>
+                    <div class="service-item">
+                        <i class="fas fa-award service-icon"></i>
+                        <h3>Outcome</h3>
+                        <p>Client satisfaction 10/10, 18% energy savings via efficient systems, and a lasting luxury impression.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio-testimonials" class="container testimonials">
+                <h3>What Our Clients Say</h3>
+                <div class="testimonials-carousel">
+                    <div class="testimonial-item active">
+                        <p>“Afric Luxury transformed our vision into a sophisticated reality. Flawless execution and communication.”</p>
+                        <span>Naomi Wanjiru — Residential Client</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>“Their team delivered our new lobby ahead of schedule. The result is premium and welcoming.”</p>
+                        <span>James Mwangi — Commercial Developer</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>“Impeccable attention to detail and an eye for luxury. We couldn’t be happier.”</p>
+                        <span>Leah Achieng — Interiors Client</span>
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <button class="prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="pagination-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </section>
+
+            <!-- New Parallax Call to Action Section -->
+            <section id="portfolio-cta" class="parallax-bg" data-bg-image="./assets/8.jpg">
+                <div class="hero-overlay" style="background-color: rgba(0,0,0,0.6);">
+                    <div class="container content-above-overlay">
+                        <h2>Ready to Envision Your Masterpiece?</h2>
+                        <p class="section-subtitle">Our team is dedicated to transforming your ideas into a tangible reality of luxury and elegance. Connect with us today.</p>
+                        <a href="contact.html" class="btn">Schedule a Consultation</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-main">
+            <div class="footer-col company-info">
+                <img src="./assets/logo%201.jpg" alt="Afric Luxury Logo" class="footer-logo">
+                <p class="tagline">Crafting Elegance, Building Dreams.</p>
+                <p class="about-blurb">Afric Luxury Interiors & Construction specializes in creating bespoke luxury spaces and delivering high-end construction projects across Kenya and beyond.</p>
+                <p>&copy; 2025 Afric Luxury Interiors & Construction. All rights reserved.</p>
+            </div>
+            <div class="footer-col quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="why-choose-us.html">Why Choose Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Ruiru, Kenya</p>
+                <p><i class="fas fa-phone-alt"></i> +254790274288, +254725780382</p>
+                <p><i class="fas fa-envelope"></i> info@africluxuryinteriors.co.ke</p>
+                <div class="footer-social-links">
+                    <a href="https://www.facebook.com/africluxuryinteriors" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/africluxuryinteriors" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/africluxuryinteriors" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/africluxuryinteriors" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/254790274288" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <button id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Lightbox Modal for Latest Works -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+        <button class="lightbox-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+        <img class="lightbox-image" src="" alt="Expanded work image">
+        <div class="lightbox-caption"></div>
+        <button class="lightbox-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Floating Quick Contact Button -->
+    <a href="contact.html" class="quick-contact-btn" aria-label="Quick Contact">
+        <i class="fas fa-comments"></i>
+        <span class="btn-text">Contact Us</span>
+    </a>
+    <a href="https://wa.me/254790274288" class="whatsapp-float" target="_blank" aria-label="WhatsApp Chat">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
